@@ -1,0 +1,31 @@
+@font-face {
+    font-family: '8 Bit Limit';
+    src: url('../fonts/8bitlim.ttf');
+}
+
+body {
+    background: #eeafaf url('../images/background.png') repeat-x;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    color: #ffddee;
+    font-family: '8 Bit Limit', serif;
+    font-size: 72px;
+    text-shadow: -2px 0 #a79aff, 0 2px #a79aff, 2px 0 #a79aff, 0 -2px #a79aff;
+}
+
+img {
+    height: 100px;
+}
+
+button {
+    background: rgba(0,0,0,0.2);
+}
+
+.crystal-score, .user-stats, .total-score, .crystals, .win-lose {
+    margin-top: 50px;
+}
+#crystal-score, #wins, #losses, #total-score{
+    color: #fff;
+}
